@@ -1,0 +1,16 @@
+{%  extends '::base.html.twig'%}
+
+{% block body %}
+<br />
+{% set tata= "françoise"%}
+
+
+{% for i in 'a'..'z' %}
+    {{loop.index}} => {{i |upper}} <br />
+{% endfor %}
+
+
+Hello World! {{prenom}} {{nom}} {{tata}}
+<br />
+
+{% endblock %}

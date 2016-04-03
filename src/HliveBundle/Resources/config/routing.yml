@@ -1,0 +1,3 @@
+hlive_homepage:
+    path: /hello/{nom}/{prenom}
+    defaults: { _controller: HliveBundle:Default:index }
