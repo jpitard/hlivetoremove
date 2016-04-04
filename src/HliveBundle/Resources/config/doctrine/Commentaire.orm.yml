@@ -1,0 +1,20 @@
+HliveBundle\Entity\Commentaire:
+    type: entity
+    table: null
+    repositoryClass: HliveBundle\Repository\CommentaireRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: '255'
+        contenu:
+            type: text
+            
+    manyToOne:
+        comment
+    lifecycleCallbacks: {  }
