@@ -1,0 +1,15 @@
+HliveBundle\Entity\ProgrammeMedia:
+    type: entity
+    table: programme_media
+    #repositoryClass: HliveBundle\Repository\CommentaireRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        heure_diffusion:
+            type: datetime
+        
+    lifecycleCallbacks: {  }

@@ -1,0 +1,14 @@
+HliveBundle\Entity\Localisation:
+    type: entity
+    table: localisation
+    #repositoryClass: HliveBundle\Repository\CommentaireRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+       
+        
+    lifecycleCallbacks: {  }

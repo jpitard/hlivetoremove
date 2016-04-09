@@ -1,0 +1,16 @@
+HliveBundle\Entity\Programme:
+    type: entity
+    table: programme
+    #repositoryClass: HliveBundle\Repository\CommentaireRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        date_add:
+            type: datetime
+        
+    lifecycleCallbacks: {  }
+

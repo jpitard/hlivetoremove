@@ -1,6 +1,6 @@
-HliveBundle\Entity\Commentaire:
+HliveBundle\Entity\Categorie:
     type: entity
-    table: commentaire
+    table: categorie
     #repositoryClass: HliveBundle\Repository\CommentaireRepository
     id:
         id:
@@ -9,19 +9,17 @@ HliveBundle\Entity\Commentaire:
             generator:
                 strategy: AUTO
     fields:
-        titre:
+        nom:
             type: string
             nullable: false
-            length: 164
+            length: 255
             fixed: false
             comment: ''
-        contenu:
+        description:
             type: text
-            nullable: false
+            nullable: true
             fixed: false
             comment: ''
-        date_ajouter:
-            type: datetime
         active:
             type: boolean
             nullable: false
@@ -29,5 +27,9 @@ HliveBundle\Entity\Commentaire:
             fixed: false
             option:
                default: 0
+    manyToOne:
+        categorieParent:
+           targetEntity: Categorie
+           inversedBy: enfantCategories
         
     lifecycleCallbacks: {  }

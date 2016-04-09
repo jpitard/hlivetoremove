@@ -1,0 +1,50 @@
+HliveBundle\Entity\Adresse:
+    type: entity
+    table: adresse
+    #repositoryClass: HliveBundle\Repository\CommentaireRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            nullable: true
+            length: 64
+            fixed: false
+            comment: ''
+        prenom:
+            type: string
+            nullable: true
+            length: 64
+            fixed: false
+            comment: ''
+        telephone:
+            type: string
+            nullable: true
+            length: 32
+            fixed: false
+            comment: ''
+        mobile:
+            type: string
+            nullable: true
+            length: 32
+            fixed: false
+            comment: ''
+        adresse:
+            type: string
+            nullable: true
+            length: 128
+            fixed: false
+            comment: ''
+        adresse2:
+            type: string
+            nullable: true
+            length: 128
+            fixed: false
+            comment: ''
+        
+    lifecycleCallbacks: {  }
+

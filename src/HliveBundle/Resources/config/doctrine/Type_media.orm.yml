@@ -1,6 +1,6 @@
-HliveBundle\Entity\Commentaire:
+HliveBundle\Entity\TypeMedia:
     type: entity
-    table: commentaire
+    table: type_media
     #repositoryClass: HliveBundle\Repository\CommentaireRepository
     id:
         id:
@@ -9,25 +9,16 @@ HliveBundle\Entity\Commentaire:
             generator:
                 strategy: AUTO
     fields:
-        titre:
+        nom:
             type: string
             nullable: false
-            length: 164
+            length: 64
             fixed: false
             comment: ''
-        contenu:
+        description:
             type: text
             nullable: false
             fixed: false
             comment: ''
-        date_ajouter:
-            type: datetime
-        active:
-            type: boolean
-            nullable: false
-            length: 5
-            fixed: false
-            option:
-               default: 0
         
     lifecycleCallbacks: {  }

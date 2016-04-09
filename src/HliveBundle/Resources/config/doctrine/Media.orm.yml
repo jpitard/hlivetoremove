@@ -1,6 +1,6 @@
-HliveBundle\Entity\Commentaire:
+HliveBundle\Entity\Media:
     type: entity
-    table: commentaire
+    table: media
     #repositoryClass: HliveBundle\Repository\CommentaireRepository
     id:
         id:
@@ -20,8 +20,33 @@ HliveBundle\Entity\Commentaire:
             nullable: false
             fixed: false
             comment: ''
-        date_ajouter:
+        description:
+            type: text
+            nullable: false
+            fixed: false
+            comment: ''
+        lien_media:
+            type: string
+            nullable: false
+            length: 164
+            fixed: false
+            comment: ''
+        duree:
+            type: string
+            nullable: false
+            length: 12
+            fixed: false
+            comment: ''
+        date_add:
             type: datetime
+        date_update:
+            type: datetime
+        nbre_commentaire:
+            type: integer
+            nullable: false
+            option:
+               unsigned: true
+               default: 0
         active:
             type: boolean
             nullable: false

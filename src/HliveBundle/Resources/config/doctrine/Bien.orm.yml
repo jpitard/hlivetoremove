@@ -1,0 +1,73 @@
+HliveBundle\Entity\Bien:
+    type: entity
+    table: bien
+    #repositoryClass: HliveBundle\Repository\CommentaireRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        type_bien:
+            type: string
+            nullable: false
+            length: 128
+            fixed: false
+            comment: ''
+        Etat:
+            type: string
+            nullable: false
+            length: 64
+            fixed: false
+            comment: ''
+        prix_min:
+            type: string
+            nullable: false
+            length: 12
+            fixed: false
+            comment: ''
+        marque:
+            type: string
+            nullable: false
+            length: 128
+            fixed: false
+            comment: ''
+        modele:
+            type: string
+            nullable: false
+            length: 128
+            fixed: false
+            comment: ''
+        annee_modele:
+            type: string
+            nullable: false
+            length: 6
+            fixed: false
+            comment: ''
+        kilometrage:
+            type: string
+            nullable: false
+            length: 10
+            fixed: false
+            comment: ''
+        carburant_type:
+            type: string
+            nullable: false
+            length: 64
+            fixed: false
+            comment: ''
+        boite_vitesse:
+            type: string
+            nullable: false
+            length: 64
+            fixed: false
+            comment: ''
+        prix_max:
+            type: string
+            nullable: false
+            length: 12
+            fixed: false
+            comment: ''
+        
+    lifecycleCallbacks: {  }

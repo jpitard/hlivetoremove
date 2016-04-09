@@ -1,6 +1,6 @@
-HliveBundle\Entity\Commentaire:
+#HliveBundle\Entity\Annonce:
     type: entity
-    table: commentaire
+    table: annonce
     #repositoryClass: HliveBundle\Repository\CommentaireRepository
     id:
         id:
@@ -12,7 +12,7 @@ HliveBundle\Entity\Commentaire:
         titre:
             type: string
             nullable: false
-            length: 164
+            length: 128
             fixed: false
             comment: ''
         contenu:
@@ -20,7 +20,9 @@ HliveBundle\Entity\Commentaire:
             nullable: false
             fixed: false
             comment: ''
-        date_ajouter:
+        date_add:
+            type: datetime
+        date_update:
             type: datetime
         active:
             type: boolean
