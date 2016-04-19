@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Annonce.orm.yml</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Annonce.php</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Bien.php</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Categorie.php</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Ville.php</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Ville.orm.yml</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Categorie.orm.yml</file>
+            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Bien.orm.yml</file>
+        </group>
+    </open-files>
+</project-private>

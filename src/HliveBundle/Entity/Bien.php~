@@ -1,0 +1,390 @@
+<?php
+
+namespace HliveBundle\Entity;
+
+/**
+ * Bien
+ */
+class Bien
+{
+    /**
+     * @var integer
+     */
+    private $id;
+
+    /**
+     * @var string
+     */
+    private $type_bien;
+
+    /**
+     * @var string
+     */
+    private $Etat;
+
+    /**
+     * @var string
+     */
+    private $prix_min;
+
+    /**
+     * @var string
+     */
+    private $marque;
+
+    /**
+     * @var string
+     */
+    private $modele;
+
+    /**
+     * @var string
+     */
+    private $annee_modele;
+
+    /**
+     * @var string
+     */
+    private $kilometrage;
+
+    /**
+     * @var string
+     */
+    private $carburant_type;
+
+    /**
+     * @var string
+     */
+    private $boite_vitesse;
+
+    /**
+     * @var string
+     */
+    private $prix_max;
+
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set typeBien
+     *
+     * @param string $typeBien
+     *
+     * @return Bien
+     */
+    public function setTypeBien($typeBien)
+    {
+        $this->type_bien = $typeBien;
+
+        return $this;
+    }
+
+    /**
+     * Get typeBien
+     *
+     * @return string
+     */
+    public function getTypeBien()
+    {
+        return $this->type_bien;
+    }
+
+    /**
+     * Set etat
+     *
+     * @param string $etat
+     *
+     * @return Bien
+     */
+    public function setEtat($etat)
+    {
+        $this->Etat = $etat;
+
+        return $this;
+    }
+
+    /**
+     * Get etat
+     *
+     * @return string
+     */
+    public function getEtat()
+    {
+        return $this->Etat;
+    }
+
+    /**
+     * Set prixMin
+     *
+     * @param string $prixMin
+     *
+     * @return Bien
+     */
+    public function setPrixMin($prixMin)
+    {
+        $this->prix_min = $prixMin;
+
+        return $this;
+    }
+
+    /**
+     * Get prixMin
+     *
+     * @return string
+     */
+    public function getPrixMin()
+    {
+        return $this->prix_min;
+    }
+
+    /**
+     * Set marque
+     *
+     * @param string $marque
+     *
+     * @return Bien
+     */
+    public function setMarque($marque)
+    {
+        $this->marque = $marque;
+
+        return $this;
+    }
+
+    /**
+     * Get marque
+     *
+     * @return string
+     */
+    public function getMarque()
+    {
+        return $this->marque;
+    }
+
+    /**
+     * Set modele
+     *
+     * @param string $modele
+     *
+     * @return Bien
+     */
+    public function setModele($modele)
+    {
+        $this->modele = $modele;
+
+        return $this;
+    }
+
+    /**
+     * Get modele
+     *
+     * @return string
+     */
+    public function getModele()
+    {
+        return $this->modele;
+    }
+
+    /**
+     * Set anneeModele
+     *
+     * @param string $anneeModele
+     *
+     * @return Bien
+     */
+    public function setAnneeModele($anneeModele)
+    {
+        $this->annee_modele = $anneeModele;
+
+        return $this;
+    }
+
+    /**
+     * Get anneeModele
+     *
+     * @return string
+     */
+    public function getAnneeModele()
+    {
+        return $this->annee_modele;
+    }
+
+    /**
+     * Set kilometrage
+     *
+     * @param string $kilometrage
+     *
+     * @return Bien
+     */
+    public function setKilometrage($kilometrage)
+    {
+        $this->kilometrage = $kilometrage;
+
+        return $this;
+    }
+
+    /**
+     * Get kilometrage
+     *
+     * @return string
+     */
+    public function getKilometrage()
+    {
+        return $this->kilometrage;
+    }
+
+    /**
+     * Set carburantType
+     *
+     * @param string $carburantType
+     *
+     * @return Bien
+     */
+    public function setCarburantType($carburantType)
+    {
+        $this->carburant_type = $carburantType;
+
+        return $this;
+    }
+
+    /**
+     * Get carburantType
+     *
+     * @return string
+     */
+    public function getCarburantType()
+    {
+        return $this->carburant_type;
+    }
+
+    /**
+     * Set boiteVitesse
+     *
+     * @param string $boiteVitesse
+     *
+     * @return Bien
+     */
+    public function setBoiteVitesse($boiteVitesse)
+    {
+        $this->boite_vitesse = $boiteVitesse;
+
+        return $this;
+    }
+
+    /**
+     * Get boiteVitesse
+     *
+     * @return string
+     */
+    public function getBoiteVitesse()
+    {
+        return $this->boite_vitesse;
+    }
+
+    /**
+     * Set prixMax
+     *
+     * @param string $prixMax
+     *
+     * @return Bien
+     */
+    public function setPrixMax($prixMax)
+    {
+        $this->prix_max = $prixMax;
+
+        return $this;
+    }
+
+    /**
+     * Get prixMax
+     *
+     * @return string
+     */
+    public function getPrixMax()
+    {
+        return $this->prix_max;
+    }
+    /**
+     * @var \HliveBundle\Entity\Ville
+     */
+    private $ville;
+
+
+    /**
+     * Set ville
+     *
+     * @param \HliveBundle\Entity\Ville $ville
+     *
+     * @return Bien
+     */
+    public function setVille(\HliveBundle\Entity\Ville $ville = null)
+    {
+        $this->ville = $ville;
+
+        return $this;
+    }
+
+    /**
+     * Get ville
+     *
+     * @return \HliveBundle\Entity\Ville
+     */
+    public function getVille()
+    {
+        return $this->ville;
+    }
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $annonces;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->annonces = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add annonce
+     *
+     * @param \HliveBundle\Entity\Annonce $annonce
+     *
+     * @return Bien
+     */
+    public function addAnnonce(\HliveBundle\Entity\Annonce $annonce)
+    {
+        $this->annonces[] = $annonce;
+
+        return $this;
+    }
+
+    /**
+     * Remove annonce
+     *
+     * @param \HliveBundle\Entity\Annonce $annonce
+     */
+    public function removeAnnonce(\HliveBundle\Entity\Annonce $annonce)
+    {
+        $this->annonces->removeElement($annonce);
+    }
+
+    /**
+     * Get annonces
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getAnnonces()
+    {
+        return $this->annonces;
+    }
+}
