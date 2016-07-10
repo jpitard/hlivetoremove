@@ -1,0 +1,177 @@
+/*Body*/
+#body-hlive{
+    background-color: #CCCCCC;
+    color: #454545;
+    /*font-size: 16px;*/
+}
+
+/*SECTION BODY*/
+#section-body{
+    background: magenta;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION FOOTER*/
+#section-footer 
+{
+    background: #232323;
+    color: #6f6f6f;
+    margin-top: 50px;
+}
+#section-footer h4{color: #fff;}
+#section-footer a{color: #6f6f6f;}
+
+
+
+
+
+
+/*FOOTER*/
+#footer
+{
+   /*position: absolute;*/
+   /* bottom: 0;*/
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+.container-footer{
+    margin-top: 10px;
+}
+.bloc-copy-right p
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bloc-social ul
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bloc-top{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+#bloc-pub-gauche{
+    /*width: 226px;*/
+    background: #fff;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+
+.bloc-title{
+   padding-bottom: 10px;
+   margin: 5px 0 20px;
+   /*border-bottom: 1px solid #eee;*/
+}
+.sup-margin-title{margin: 0;}
+
+.bloc-subtitle{
+    margin: 1em 0 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+.bloc-subtitle-border{
+    background: #BE0000;
+    top: 100%;
+    height: 1px;
+    transform: translateY(-5px);
+    position: absolute;
+    /*width: 70%;*/
+}
+
+.content-subtitle{
+   letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px; 
+}
+.intro{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.description p{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    /*line-height: 10px;*/
+    /*letter-spacing: 2px;*/
+    text-align: justify;
+}
+
+#bloc-notre-histoire, #bloc-notre-organisation, #bloc-que-faisons-nous{
+    display: none;
+}
+#bloc-qui-sommes-nous{
+    display: block;
+}
+
+/*MENU GENERAL*/
+
+.menu-general{
+    /*margin-left: 50px;*/
+    
+}
+
+
+
+/*NEMU INFO ASSOCIATION*/
+
+/*#body-hlive li{
+    list-style-type: none;
+}*/
+
+/*#menu-info-association{background: #fff; border: none; }
+#menu-info-association ul{padding: .5rem}
+ul.unstyled{
+    list-style: none;
+}
+#menu-info-association ul li{
+    padding: 10px;
+    margin: 0 0 .5rem;
+    display: list-item;
+    position: relative;
+   height: 30px;
+}
+#menu-info-association ul li a{
+   cursor: pointer;
+   padding: 10px;
+   text-decoration: none;
+   color: #454545;
+   
+}*/
+
+/*#menu-info-association ul li a:hover{
+   background-color: #0055a4;
+}*/
+
+
+/*
+#menu-info-association ul li .info-assoc .icone-info-assoc{
+    color: #0055a4;
+}
+#menu-info-association ul li .info-assoc .libelle-info-assoc{
+    margin-left: 1rem;
+}*/
+
+
+

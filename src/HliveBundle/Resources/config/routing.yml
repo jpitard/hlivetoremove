@@ -1,7 +1,24 @@
-hlive_homepage:
-    path: /hello/{nom}/{prenom}
-    defaults: { _controller: HliveBundle:Default:index }
-    
+#hlive_homepage:
+ #   path: /hello/{nom}/{prenom}
+  #  defaults: { _controller: HliveBundle:Default:index }
+
+#accueil:
+ #   path: /
+  #  defaults: { _controller: HliveBundle:Accueil:index }   
+accueil:
+    path: /accueil
+    defaults: { _controller: HliveBundle:Accueil:index }
+direct:
+    path: /direct
+    defaults: { _controller: HliveBundle:Direct:index }
+
+programme:
+    path: /programme
+    defaults: { _controller: HliveBundle:Programme:index }
+
+contact:
+    path: /contact
+    defaults: { _controller: HliveBundle:Contact:index } 
 #fos_user_security:
 #    resource: routing/security.yml
 #    prefix: /
