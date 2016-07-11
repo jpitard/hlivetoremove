@@ -3,14 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Annonce.orm.yml</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Annonce.php</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Bien.php</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Categorie.php</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Entity/Ville.php</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Ville.orm.yml</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Categorie.orm.yml</file>
-            <file>file:/var/www/hlive/Symfony/src/HliveBundle/Resources/config/doctrine/Bien.orm.yml</file>
+            <file>file:/C:/wamp64/www/hlive/composer.json</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Resources/views/Default/menu_general.html.twig</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/wamp64/www/hlive/app/config/routing.yml</file>
+            <file>file:/C:/wamp64/www/hlive/app/config/config.yml</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Resources/views/Default/footer.html.twig</file>
+            <file>file:/C:/wamp64/www/hlive/app/.htaccess</file>
+            <file>file:/C:/wamp64/www/hlive/web/bundles/hlive/css/style.css</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Resources/views/Default/accueil.html.twig</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Resources/views/Default/footer-before.html.twig</file>
+            <file>file:/C:/wamp64/www/hlive/src/HliveBundle/Controller/AccueilController.php</file>
+            <file>file:/C:/wamp64/www/hlive/app/Resources/views/base.html.twig</file>
+            <file>file:/C:/wamp64/www/hlive/app/AppKernel.php</file>
         </group>
     </open-files>
 </project-private>

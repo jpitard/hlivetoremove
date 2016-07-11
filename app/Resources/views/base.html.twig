@@ -2,22 +2,45 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}La télévision culturelle haïtienne. Vidéos, direct | HLIVE{% endblock %}</title>
+        {% block stylesheets %}
+            
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+            
+        {% stylesheets 'bundles/hlive/css/*' filter='cssrewrite' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+{% endstylesheets %}
+        
+        {% endblock %}
+       
     </head>
-    <body>
-        ______________________________________________
-        <br />
-        header<br />
-        ______________________________________________
-        <br/>
-        {% block body %}{% endblock %}
-        ___________________________________________
-        <br />
-        footer<br />
-        __________________________________________
-        <br />
-        {% block javascripts %}{% endblock %}
+    
+    <body id="body-hlive">
+        {{ include('HliveBundle:Default:menu_general.html.twig') }}
+        {{ include('HliveBundle:Default:carousel.html.twig') }}
+        
+        {% block body %}
+        
+        {% endblock %}
+        
+        <!-- FOOTER-->
+        {{ include('HliveBundle:Default:section_footer.html.twig') }}
+        {{ include('HliveBundle:Default:footer.html.twig') }}
+        
+        
+        
+        {% block javascripts %}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            
+            {% javascripts '@HliveBundle/Resources/public/js/*' %}
+                 <script src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+            
+            
+        {% endblock %}
+        
     </body>
 </html>

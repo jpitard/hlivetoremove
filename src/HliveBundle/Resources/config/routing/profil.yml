@@ -1,0 +1,4 @@
+fos_user_profile:
+    resource: routing/profil.yml
+    prefix: /compte
+

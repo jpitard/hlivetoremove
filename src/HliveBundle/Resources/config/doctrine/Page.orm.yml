@@ -1,6 +1,6 @@
-#HliveBundle\Entity\Annonce:
+HliveBundle\Entity\Page:
     type: entity
-    table: annonce
+    table: page
     #repositoryClass: HliveBundle\Repository\CommentaireRepository
     id:
         id:
@@ -12,24 +12,18 @@
         titre:
             type: string
             nullable: false
-            length: 128
+            length: 255
             fixed: false
             comment: ''
-        contenu:
+        slug:
+            type: string
+            nullable: false
+            length: 255
+            fixed: false
+            comment: ''
+        description:
             type: text
-            nullable: false
+            nullable: true
             fixed: false
             comment: ''
-        date_add:
-            type: datetime
-        date_update:
-            type: datetime
-        active:
-            type: boolean
-            nullable: false
-            length: 5
-            fixed: false
-            option:
-               default: 0
-        
     lifecycleCallbacks: {  }
